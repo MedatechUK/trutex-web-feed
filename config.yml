@@ -1,6 +1,0 @@
-API_URL: https://priority.trutex.com/odata/Priority/tabula.ini/
-COMPANY: tru
-PRI_API_USERNAME: apiuser
-PRI_API_PASSWORD: 123456
-EXTRA_FIELDS: TOTPRICE
-
