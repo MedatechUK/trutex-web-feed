@@ -18,6 +18,7 @@ build/
 docs/_build/
 .vscode
 error.log
+config.yml
 # Coverage reports
 htmlcov/
 .coverage
