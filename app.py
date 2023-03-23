@@ -25,11 +25,11 @@ logging.basicConfig(filename=path, level=logging.DEBUG, format='%(asctime)s %(me
 logging.info('Flask server started.')
 
 #region Endpoint definitions
-@app.route("/webfeed/")
+@app.route("/trutex-web-feed/")
 def home():
     return "This is the Flask App on IIS Server to serve Web Feed."
 
-@app.route("/webfeed/invoices")
+@app.route("/trutex-web-feed/invoices")
 def invoices():
     page = request.args.get('page', default = 1, type = int)
     len = request.args.get('len', default = 10, type = int)
